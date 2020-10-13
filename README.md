@@ -32,5 +32,5 @@ myPackage.doStuff();
 
 ### API
 
-TODO: Provide an acutal JSDoc URL
-The JSDoc can be accessed at https://yourname.github.io/repo/
+TODO: Provide an acutal JSDoc URL  
+The JSDoc can be accessed at https://dada513.github.io/package/
