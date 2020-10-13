@@ -28,6 +28,7 @@ jobs:
       - run: yarn run fix
       - run: git add .
       - run: git commit -a -m "Fix with standard"
+      - run: git push
   doc:
     runs-on: ubuntu-latest
     steps:
@@ -44,6 +45,7 @@ jobs:
       - run: yarn run doc
       - run: git add .
       - run: git commit -a -m "Update JSDoc"
+      - run: git push
   publish-npm:
     needs: [test, fix]
     runs-on: ubuntu-latest
